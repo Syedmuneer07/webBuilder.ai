@@ -30,8 +30,9 @@ app.use("/api/user",userRouter)
 app.use("/api/website",websiteRouter)
 app.use("/api/billing",billingRouter)
 
+await connectDb()
+console.log("db connected")
 
-app.listen(port,()=>{
-    console.log("server started")
-    connectDb()
+app.listen(port, '0.0.0.0', () => {
+    console.log(`server started on port ${port}`)
 })
