@@ -6,8 +6,6 @@ AI Web Builder is a full-stack SaaS platform that enables users to create and ma
 
 💳 Payments are handled via Razorpay, with automated plan upgrades using webhook events.
 
-🎥 Demo Preview
-<p align="center"> <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExb3k1eW1vYjV4d3Zybm1sN2U5c3E3cHc3dXJqN2V5c2Z4d2l5bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/coxQHKASG60HrHtvkt/giphy.gif" width="600" /> </p>
 🚀 Features
 🔐 Secure Authentication (JWT + Cookies)
 🌐 Dynamic Website Builder & Manager
@@ -63,7 +61,6 @@ cd client
 npm install
 
 .env
-
 VITE_RAZORPAY_KEY=rzp_test_xxxxx
 VITE_API_URL=http://localhost:8000
 npm run dev
