@@ -86,9 +86,6 @@ webBuilder.ai/
 🚀 Deployment
 Backend → Render
 Frontend → Vercel / Netlify
-📊 Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=Syedmuneer07&show_icons=true&theme=radical" /> </p>
-🤝 Contributing
 
 Pull requests are welcome!
 Fork → Improve → PR 🚀
